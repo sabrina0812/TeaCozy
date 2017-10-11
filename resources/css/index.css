@@ -1,0 +1,144 @@
+.class {
+  css declarations;
+}
+
+* {
+  color: seashell;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+}
+.navs {
+  padding: 20px 10px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+body {
+  font-size: 22px;
+  font-family: Helvetica;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 2;
+}
+
+.mission {
+  text-align: center;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  Line-height: 10px;
+}
+
+.list img {
+  height: 200px;
+  width: 300px;
+}
+
+.featured ul {
+  display: flex;
+  height: 600px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 2;
+  list-style: none;
+}
+
+.list {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+.featured {
+  text-align: center;
+  margin-top: 70px;
+  }
+
+.address {
+  text-align: center;
+  height: 550px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.address ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.address li {
+  display: flex;
+  list-style: none;
+  color: inherit;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 2;
+  list-style: none;
+  opacity: 1;
+}
+
+.address li {
+  height: 300px;
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  height: 200px;
+  flex-flow: column nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
